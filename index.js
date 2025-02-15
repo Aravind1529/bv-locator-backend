@@ -14,21 +14,6 @@ app.use(express.json());
 
 const API_URL = 'https://tnnbvcentres-cmse.onrender.com/tnnBvCentres/';
 
-
-// Helper function to read data
-async function readData() {
-  const data = await fs.readFile(path.join(__dirname, 'data', 'users.json'), 'utf8');
-  return JSON.parse(data);
-}
-
-// Helper function to write data
-async function writeData(data) {
-  await fs.writeFile(
-    path.join(__dirname, 'data', 'users.json'),
-    JSON.stringify(data, null, 2)
-  );
-}
-
 //Helper function to read data for centres
 async function readCentresData() {
   const data = await fs.readFile(path.join(__dirname, 'data', 'db.json'), 'utf8');
@@ -42,7 +27,7 @@ async function writeCentresData(data) {
     JSON.stringify(data, null, 2)
   )
 }
-
+//API URL = https://bv-locator-services.onrender.com 
 // GET all centres
 app.get('/api/centres', async (req, res) => {
   try {
@@ -150,82 +135,7 @@ app.put('/api/centres/:id', async (req, res) => {
   }
 });
 
-// GET all users
-app.get('/api/users', async (req, res) => {
-  try {
-    const data = await readData();
-    res.json(data.users);
-  } catch (error) {
-    res.status(500).json({ error: 'Error reading data' });
-  }
-});
-
-// GET user by ID
-app.get('/api/users/:id', async (req, res) => {
-  try {
-    const data = await readData();
-    const user = data.users.find(u => u.id === parseInt(req.params.id));
-    if (user) {
-      res.json(user);
-    } else {
-      res.status(404).json({ error: 'User not found' });
-    }
-  } catch (error) {
-    res.status(500).json({ error: 'Error reading data' });
-  }
-});
-
-// POST new user
-app.post('/api/users', async (req, res) => {
-  try {
-    const data = await readData();
-    const newUser = {
-      id: data.users.length > 0 ? Math.max(...data.users.map(u => u.id)) + 1 : 1,
-      ...req.body
-    };
-    data.users.push(newUser);
-    await writeData(data);
-    res.status(201).json(newUser);
-  } catch (error) {
-    res.status(500).json({ error: 'Error creating user' });
-  }
-});
-
-// PUT update user
-app.put('/api/users/:id', async (req, res) => {
-  try {
-    const data = await readData();
-    const index = data.users.findIndex(u => u.id === parseInt(req.params.id));
-    if (index !== -1) {
-      data.users[index] = { ...data.users[index], ...req.body };
-      await writeData(data);
-      res.json(data.users[index]);
-    } else {
-      res.status(404).json({ error: 'User not found' });
-    }
-  } catch (error) {
-    res.status(500).json({ error: 'Error updating user' });
-  }
-});
-
-// DELETE user
-app.delete('/api/users/:id', async (req, res) => {
-  try {
-    const data = await readData();
-    const index = data.users.findIndex(u => u.id === parseInt(req.params.id));
-    if (index !== -1) {
-      data.users.splice(index, 1);
-      await writeData(data);
-      res.status(204).send();
-    } else {
-      res.status(404).json({ error: 'User not found' });
-    }
-  } catch (error) {
-    res.status(500).json({ error: 'Error deleting user' });
-  }
-});
-
-//Centres Delete
+//Delete Centre
 app.delete('/api/centres/delete/:id', async (req, res) => {
 
   try {

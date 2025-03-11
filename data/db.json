@@ -613,20 +613,6 @@
     },
     {
       "id": "44",
-      "samithiName": "Shenoy nagar Samithi ",
-      "guruName": "Latha.N",
-      "guruContactNumber": "9790936458",
-      "address": "8 th cross west street shenoy nagar ",
-      "pincode": "600030",
-      "ecName": "Latha.N ",
-      "ecContact": "9790936458",
-      "convenorName": "Mani sairam ",
-      "convenorContact": "8754414475",
-      "area": "Shenoy Nagar",
-      "district": "Chennai North West"
-    },
-    {
-      "id": "45",
       "samithiName": "Anna Nagar Samithi",
       "centreName": "Anna Nagar Samithi",
       "guruName": "Srividhya Karthik",
@@ -641,7 +627,7 @@
       "district": "Chennai North West"
     },
     {
-      "id": "46",
+      "id": "45",
       "samithiName": "Anna Nagar East Samithi",
       "centreName": "Sai Prem Anna Nagar East Samithi",
       "guruName": "R. Sujatha",
@@ -649,13 +635,15 @@
       "address": "F 183, 9h Street, Annanagar East,  Chennai ",
       "pincode": "600102",
       "ecName": "R. Sujatha",
-      "convenorContact": "9841738101",
+      "ecContact": "9841738101",
+      "convenorName": "Purushothaman",
+      "convenorContact": "9894093694",
       "area": "Anna Nagar East",
       "district": "Chennai North West",
       "googleMapLink": "https://maps.app.goo.gl/N3HRE2Z2akKKNdGA7"
     },
     {
-      "id": "47",
+      "id": "46",
       "samithiName": "Anna Nagar East Samithi",
       "centreName": "Kilpauk Garden Center",
       "guruName": "Kalavathy",
@@ -671,7 +659,7 @@
       "googleMapLink": "https://maps.app.goo.gl/mFkdhR9KZ8EduZa16"
     },
     {
-      "id": "48",
+      "id": "47",
       "samithiName": "Anna Nagar West Samithi",
       "centreName": "V. S. Tower, TVS Avenue Center",
       "guruName": "Devaki Venkataramani",
@@ -687,7 +675,7 @@
       "googleMapLink": "https://maps.app.goo.gl/647JxUd9H1ashwtcA"
     },
     {
-      "id": "49",
+      "id": "48",
       "samithiName": "Anna Nagar West Samithi",
       "centreName": "Sai Meenakshi Bhajan Hall, VGN",
       "guruName": "Lakshmi Venkataramanan",
@@ -703,7 +691,7 @@
       "googleMapLink": "https://maps.app.goo.gl/iGgrnw2XdtmM6o6Q7"
     },
     {
-      "id": "50",
+      "id": "49",
       "samithiName": "Anna Nagar West Samithi",
       "centreName": "TN Slum Clearance Flat - Sai Kripa",
       "guruName": "Devaki Venkataramani",
@@ -719,7 +707,7 @@
       "googleMapLink": "https://maps.app.goo.gl/EKTToCbxh7dA56XP9"
     },
     {
-      "id": "51",
+      "id": "50",
       "samithiName": "Anna Nagar West Samithi",
       "centreName": "TNUHBD quarters",
       "guruName": "Subasri K",
@@ -733,6 +721,22 @@
       "area": "Thirumangalam",
       "district": "Chennai North West",
       "googleMapLink": "https://maps.app.goo.gl/EKTToCbxh7dA56XP9"
+    },
+    {
+      "id": "51",
+      "samithiName": "Ashtalakshmi Nagar Samithi",
+      "centreName": "Sri Krishna Home Center",
+      "guruName": "Chitra Janakiraman",
+      "guruContactNumber": "9841127647",
+      "address": "No 5, Ekambaram Industrial estate Main road, Alapakkam, Chennai - 600116.",
+      "pincode": "600116",
+      "ecName": "P.V. Shantha",
+      "ecContact": "9444992230",
+      "convenorName": "Narasimmal",
+      "convenorContact": "9600104130",
+      "area": "Alapakkam",
+      "district": "Chennai North West",
+      "googleMapLink": "https://maps.app.goo.gl/poA7TBQw9jZ7oFb48"
     },
     {
       "id": "52",
@@ -1970,7 +1974,8 @@
       "ecContact": "8903536903",
       "convenorName": "Sakthidaran",
       "convenorContact": "98840 93210",
-      "area": "Mylapore"
+      "area": "Mylapore",
+      "district": "Chennai South"
     },
     {
       "id": "132",
@@ -2311,7 +2316,7 @@
       "centreName": "Parson Nagar",
       "guruName": "Sivaranjani",
       "guruContactNumber": "7010303796",
-      "address": "Shiva Shakti Vinayagar Temple no.38 parsn Nagar VGP Salai hospital road West saidapet Chennai 600015",
+      "address": "Shiva Shakti Vinayagar Temple no.38 parsn Nagar VGP Salai hospital road West saidapet Chennai 600015",
       "pincode": "600015",
       "ecName": "Kalaimagal",
       "ecContact": "8754535679",
@@ -4827,7 +4832,21 @@
       "convenorContact": "7904065879",
       "area": " Avadi ",
       "district": "Thiruvallur West"
+    },
+    {
+      "id": "323",
+      "samithiName": "Ashtalakshmi Nagar Samithi",
+      "centreName": "Sri Krishna Home Center",
+      "guruName": "Chitra Janakiraman",
+      "guruContactNumber": "9841127647",
+      "address": "No 5, Ekambaram Industrial estate Main road, Alapakkam, Chennai - 600116.",
+      "pincode": "600116",
+      "ecName": "P.V. Shantha",
+      "ecContact": "9444992230",
+      "convenorName": "Narasimmal",
+      "convenorContact": "9600104130",
+      "area": "Alapakkam",
+      "district": "Chennai North West"
     }
   ]
-
 }

@@ -1504,7 +1504,7 @@
     },
     {
       "id": "101",
-      "samithiName": "Egmore Samithi",
+      "samithiName": "Gopalapuram Samithi",
       "centreName": "Lakshmipuram",
       "guruName": "Latha murali, and Sriprabha",
       "guruContactNumber": "9884236979,  9444541372",
@@ -1515,12 +1515,11 @@
       "convenorName": "Ramesh Babu",
       "convenorContact": "9841050817",
       "area": "Royapettah",
-      "district": "Chennai South",
-      "googleMapLink": "Nil"
+      "district": "Chennai South"
     },
     {
       "id": "102",
-      "samithiName": "Balajinagar  Samithi",
+      "samithiName": "Egmore Samithi",
       "centreName": "Egmore Samithi ",
       "guruName": "Padmalochana ",
       "guruContactNumber": "9790708205",
@@ -1535,7 +1534,7 @@
     },
     {
       "id": "103",
-      "samithiName": "Brindavan Samithi",
+      "samithiName": "Balajinagar  Samithi",
       "centreName": "Balajinagar ",
       "guruName": "Jaishree Sarathy",
       "guruContactNumber": "9444521775",
@@ -1550,7 +1549,7 @@
     },
     {
       "id": "104",
-      "samithiName": "R.A.Puram Samithi",
+      "samithiName": "Brindavan Samithi",
       "centreName": "Brindavan ",
       "guruName": "Lakshmi Balasubramanian",
       "guruContactNumber": "9841692403",
@@ -1565,7 +1564,7 @@
     },
     {
       "id": "105",
-      "samithiName": "Alwarpet Samithi",
+      "samithiName": "R.A.Puram Samithi",
       "centreName": "R.A.Puram ",
       "guruName": "S.Prabha",
       "guruContactNumber": "9444440045",
@@ -1596,7 +1595,7 @@
     },
     {
       "id": "107",
-      "samithiName": "Mylapore Samithi",
+      "samithiName": "Alwarpet Samithi",
       "centreName": "Aashiana Apartments ",
       "guruName": "Srividhya Srinivasan ",
       "guruContactNumber": "9790798045",
@@ -1612,7 +1611,7 @@
     },
     {
       "id": "108",
-      "samithiName": "R.A.Puram Samithi",
+      "samithiName": "Mylapore Samithi",
       "centreName": "Mylapore",
       "guruName": "Kavitha Rengarajan",
       "guruContactNumber": "9600045073",
@@ -1627,7 +1626,7 @@
     },
     {
       "id": "109",
-      "samithiName": "Mylapore  Samithi",
+      "samithiName": "R.A.Puram Samithi",
       "centreName": "R.A.Puram ",
       "guruName": "Gayathri Shankar ",
       "guruContactNumber": "9930096075",
@@ -1638,12 +1637,11 @@
       "convenorName": "Elumalai Sairam",
       "convenorContact": "98414 02851",
       "area": "Raja Annamalai Puram",
-      "district": "Chennai South",
-      "googleMapLink": "https://g.co/kgs/oP9n9X9 "
+      "district": "Chennai South"
     },
     {
       "id": "110",
-      "samithiName": "Ice House  Samithi",
+      "samithiName": "Mylapore  Samithi",
       "centreName": "Mylapore ",
       "guruName": "BG Kamakshipriya ",
       "guruContactNumber": "8903536903",
@@ -1658,7 +1656,7 @@
     },
     {
       "id": "111",
-      "samithiName": "Mylapore Samithi",
+      "samithiName": "Ice House  Samithi",
       "centreName": "Ice House",
       "guruName": "Latha Giridharan ",
       "guruContactNumber": "9840463979",
@@ -1673,7 +1671,7 @@
     },
     {
       "id": "112",
-      "samithiName": "Alwarpet  Samithi",
+      "samithiName": "Mylapore Samithi",
       "centreName": "Mylapore",
       "guruName": "Lakshmi Nagarajan",
       "guruContactNumber": "9176208149",
@@ -1688,7 +1686,7 @@
     },
     {
       "id": "113",
-      "samithiName": "Balajinagar Samithi",
+      "samithiName": "Alwarpet  Samithi",
       "centreName": "Alwarpet ",
       "guruName": "Vidya Balakrishnan ",
       "guruContactNumber": "91 9444074994",
@@ -1703,7 +1701,7 @@
     },
     {
       "id": "114",
-      "samithiName": "Abhiramapuram  Samithi",
+      "samithiName": "Balajinagar Samithi",
       "centreName": "Avvai Shanmugam salai",
       "guruName": "Monica Sundaram",
       "guruContactNumber": "9884214078",
@@ -1718,14 +1716,14 @@
     },
     {
       "id": "115",
-      "samithiName": "R.A.Puram Samithi",
+      "samithiName": "Abhiramapuram  Samithi",
       "centreName": "Gurukulam",
       "guruName": "Uma Ramganesh ",
       "guruContactNumber": "8610635560",
       "address": "Gurukulam,C.P.Ramaswamy Lane,Abhiramapuram. Chennai.",
       "pincode": "600028",
       "ecName": "Uma Ramganesh",
-      "ecContact": "9840255927",
+      "ecContact": "8610635560",
       "convenorName": "R.M.Manicam",
       "convenorContact": "996258554",
       "area": "Abhiramapuram",
@@ -1733,7 +1731,7 @@
     },
     {
       "id": "116",
-      "samithiName": "Mandaveli  Samithi",
+      "samithiName": "R.A.Puram Samithi",
       "centreName": "R.A.Puram ",
       "guruName": "Usha Karthik ",
       "guruContactNumber": "9884002038",
@@ -1748,7 +1746,7 @@
     },
     {
       "id": "117",
-      "samithiName": "Mylapore  Samithi",
+      "samithiName": "Mandaveli  Samithi",
       "centreName": "Mandaveli",
       "guruName": "PadmavathiSundaresan",
       "guruContactNumber": "9841679445",
@@ -1764,7 +1762,7 @@
     },
     {
       "id": "118",
-      "samithiName": "Sainagar Samithi",
+      "samithiName": "Mylapore  Samithi",
       "centreName": "R.A.Puram ",
       "guruName": "G.Savitha",
       "guruContactNumber": "6379948459",
@@ -1779,7 +1777,7 @@
     },
     {
       "id": "119",
-      "samithiName": "Abhiramapuram  Samithi",
+      "samithiName": "Sainagar Samithi",
       "centreName": "Sundaram",
       "guruName": "Nisha  Batra",
       "guruContactNumber": "9940222232",
@@ -1794,14 +1792,14 @@
     },
     {
       "id": "120",
-      "samithiName": "Mandaveli Samithi",
+      "samithiName": "Abhiramapuram  Samithi",
       "centreName": "Abhiramapuram ",
       "guruName": "S.Suganthi",
       "guruContactNumber": "7708548195",
       "address": "Gurukulam C.P.Ramasamy lane",
       "pincode": "600018",
       "ecName": "Uma Ramganesh",
-      "ecContact": "9840255927",
+      "ecContact": "8610635560",
       "convenorName": "R.M.Manicam",
       "convenorContact": "9962580004",
       "area": "Raja Annamalai Puram ",
@@ -1809,7 +1807,7 @@
     },
     {
       "id": "121",
-      "samithiName": "Royapettah Samithi",
+      "samithiName": "Mandaveli Samithi",
       "centreName": "Mandaveli",
       "guruName": "Baghyalakshmi Gopal",
       "guruContactNumber": "9952022544",
@@ -1824,7 +1822,7 @@
     },
     {
       "id": "122",
-      "samithiName": "Royapettah  Samithi",
+      "samithiName": "Royapettah Samithi",
       "centreName": "Royapettah Muthu Street ",
       "guruName": "Dhanalakshmi R",
       "guruContactNumber": "9488027685",
@@ -1855,7 +1853,7 @@
     },
     {
       "id": "124",
-      "samithiName": "AGS colony  Samithi",
+      "samithiName": "Royapettah  Samithi",
       "centreName": "Serukathamman temple ",
       "guruName": "Renu Chandrasekhar",
       "guruContactNumber": "9940531131",
@@ -1871,7 +1869,7 @@
     },
     {
       "id": "125",
-      "samithiName": "Ice House  Samithi",
+      "samithiName": "Royapettah  Samithi",
       "centreName": "Muthu Street",
       "guruName": "Dhanalakshmi R",
       "guruContactNumber": "9488027685",
@@ -1887,7 +1885,7 @@
     },
     {
       "id": "126",
-      "samithiName": "Triplicane Samithi",
+      "samithiName": "Ice House  Samithi",
       "centreName": "ICE HOUSE BV CENTRE-1",
       "guruName": "KRITHIKA B",
       "guruContactNumber": "9840604927",
@@ -1902,7 +1900,7 @@
     },
     {
       "id": "127",
-      "samithiName": "Srinivasa Avenue Samithi",
+      "samithiName": "Triplicane Samithi",
       "centreName": "Triplicane samithi",
       "guruName": "G chithra Anand , Rama sathya",
       "guruContactNumber": "9884063153",
@@ -1932,7 +1930,7 @@
     },
     {
       "id": "129",
-      "samithiName": "Mandaveli  Samithi",
+      "samithiName": "Srinivasa Avenue Samithi",
       "centreName": "Srinivasa Avenue",
       "guruName": "Susila Akshayan, R.Bhuvana",
       "guruContactNumber": "9444486736, 9003128956",
@@ -1947,7 +1945,7 @@
     },
     {
       "id": "130",
-      "samithiName": "Mylapore Samithi",
+      "samithiName": "Mandaveli  Samithi",
       "centreName": "Mandaveli ",
       "guruName": "Meenakshi Suryanarayan",
       "guruContactNumber": "9283426461",
@@ -1962,7 +1960,7 @@
     },
     {
       "id": "131",
-      "samithiName": "Mylapore",
+      "samithiName": "Mylapore Samithi",
       "centreName": "East Abhiramapuram",
       "guruName": "Uttara Raghunathan",
       "guruContactNumber": "9841285917",
@@ -1972,27 +1970,10 @@
       "ecContact": "8903536903",
       "convenorName": "Sakthidaran",
       "convenorContact": "98840 93210",
-      "area": "Mylapore",
-      "district": "Chennai South"
+      "area": "Mylapore"
     },
     {
       "id": "132",
-      "samithiName": "Mandaveli Samithi",
-      "centreName": "Mandaveli 5th Trust cross st",
-      "guruName": "Sumathi Ramesh",
-      "guruContactNumber": "9840742285",
-      "address": "15/7, fifth trust cross street, Mandavelipakkam Chennai 28",
-      "pincode": "600028",
-      "ecName": "Sumathi Ramesh",
-      "ecContact": "9840742285",
-      "convenorName": "Sivakumar",
-      "convenorContact": "9884341530",
-      "area": "Mandaveli ",
-      "district": "Chennai South",
-      "googleMapLink": "https://maps.app.goo.gl/aHZKa2W8KLoeqxW5A"
-    },
-    {
-      "id": "133",
       "samithiName": "Vadapalani Samithi",
       "guruName": "Puvveeya D",
       "guruContactNumber": "9176461342",
@@ -2006,7 +1987,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "134",
+      "id": "133",
       "samithiName": "Vadapalani Samithi",
       "guruName": "Srilatha Balaji",
       "guruContactNumber": "9940654132",
@@ -2020,7 +2001,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "135",
+      "id": "134",
       "samithiName": "Saligramam Samithi",
       "guruName": "Ananthalakshmi",
       "guruContactNumber": "9176141429",
@@ -2034,7 +2015,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "136",
+      "id": "135",
       "samithiName": "Saidapet Samithi",
       "centreName": "Vasanth apartment balvikas centre",
       "guruName": "Kanthimathi Jayakumar",
@@ -2049,7 +2030,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "137",
+      "id": "136",
       "samithiName": "Krishnapuram Samithi",
       "centreName": "Sai Swaroop (Sowrashtra Nagar)",
       "guruName": "Smt. Indumathi Paramasivam",
@@ -2064,7 +2045,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "138",
+      "id": "137",
       "samithiName": "Krishnapuram Samithi",
       "centreName": "Sai Bhavan (Bajanai Koil)",
       "guruName": "Smt. Pandiammal",
@@ -2079,7 +2060,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "139",
+      "id": "138",
       "samithiName": "Krishnapuram Samithi",
       "centreName": "Sai Leela (Sankarapuram)",
       "guruName": "Smt. Bhavna Ganesh",
@@ -2094,7 +2075,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "140",
+      "id": "139",
       "samithiName": "Bharathidasan Colony Samithi",
       "centreName": "Bharathidasan Colony",
       "guruName": "Saipriya",
@@ -2109,7 +2090,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "141",
+      "id": "140",
       "samithiName": "Saligramam Samithi",
       "centreName": "Saligramam Samithi",
       "guruName": "Smt. Chandra Ramamoorthy",
@@ -2124,7 +2105,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "142",
+      "id": "141",
       "samithiName": "Saligramam Samithi",
       "guruName": "Mythili Ramaswamy",
       "guruContactNumber": "9710471778",
@@ -2138,7 +2119,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "143",
+      "id": "142",
       "samithiName": "Saligramam Samithi",
       "guruName": "Smt. Ananthalakshmi",
       "guruContactNumber": "9176141429",
@@ -2152,7 +2133,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "144",
+      "id": "143",
       "samithiName": "Saligramam Samithi",
       "guruName": "Smt. Mythili swaminathan",
       "guruContactNumber": "9841068437",
@@ -2166,7 +2147,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "145",
+      "id": "144",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Abirami",
       "guruContactNumber": "8807890621",
@@ -2180,7 +2161,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "146",
+      "id": "145",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Nirmala Dhinakaran",
       "guruContactNumber": "9994333116",
@@ -2194,7 +2175,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "147",
+      "id": "146",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Nirmala Devi",
       "guruContactNumber": "8148938219",
@@ -2208,7 +2189,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "148",
+      "id": "147",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Priyadharshini",
       "guruContactNumber": "9384722208",
@@ -2222,7 +2203,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "149",
+      "id": "148",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Gayathri",
       "guruContactNumber": "9551075533",
@@ -2236,7 +2217,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "150",
+      "id": "149",
       "samithiName": "West Mambalam Samithi",
       "guruName": "Aparna",
       "guruContactNumber": "9840868585",
@@ -2250,7 +2231,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "151",
+      "id": "150",
       "samithiName": "Kknagar Samithi",
       "centreName": "Sai prem",
       "guruName": "Sumathi",
@@ -2265,7 +2246,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "152",
+      "id": "151",
       "samithiName": "Virugambakkam Samithi",
       "centreName": "Virugambakkam samithi",
       "guruName": "Sunitha Mohannath Sairam",
@@ -2280,7 +2261,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "153",
+      "id": "152",
       "samithiName": "Kknagar Samithi",
       "centreName": "Nil",
       "guruName": "L.Bhuvaneswari",
@@ -2295,7 +2276,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "154",
+      "id": "153",
       "samithiName": "Saidapet Samithi",
       "centreName": "Main centre",
       "guruName": "Roshan",
@@ -2310,7 +2291,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "155",
+      "id": "154",
       "samithiName": "Saidapet Samithi",
       "centreName": "Indus amber",
       "guruName": "Prema Radhakrishnan",
@@ -2325,12 +2306,12 @@
       "district": "Chennai West"
     },
     {
-      "id": "156",
+      "id": "155",
       "samithiName": "Saidapet Samithi",
       "centreName": "Parson Nagar",
       "guruName": "Sivaranjani",
       "guruContactNumber": "7010303796",
-      "address": "Shiva Shakti Vinayagar Temple no.38 parsn Nagar VGP Salai hospital road West saidapet Chennai 600015",
+      "address": "Shiva Shakti Vinayagar Temple no.38 parsn Nagar VGP Salai hospital road West saidapet Chennai 600015",
       "pincode": "600015",
       "ecName": "Kalaimagal",
       "ecContact": "8754535679",
@@ -2340,7 +2321,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "157",
+      "id": "156",
       "samithiName": "Saidapet Samithi",
       "centreName": "Mahendra homes",
       "guruName": "Kalaimagal",
@@ -2355,7 +2336,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "158",
+      "id": "157",
       "samithiName": "Saidapet Samithi",
       "centreName": "Sri nagar colony",
       "guruName": "Adhithi Seetharaman",
@@ -2370,7 +2351,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "159",
+      "id": "158",
       "samithiName": "Nungambakkam Samithi",
       "centreName": "SAI SAHARA",
       "guruName": "RAMAKRISHNAN",
@@ -2385,7 +2366,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "160",
+      "id": "159",
       "samithiName": "Nungambakkam Samithi",
       "centreName": "SAI DEEPAM",
       "guruName": "R.VASUKI",
@@ -2400,7 +2381,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "161",
+      "id": "160",
       "samithiName": "Thirunagar Samithi",
       "centreName": "Centre1-Thirunagar Samithi",
       "guruName": "Vijaylakshmi",
@@ -2415,7 +2396,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "162",
+      "id": "161",
       "samithiName": "Thirunagar Samithi",
       "centreName": "Balvikas Centre -2",
       "guruName": "Rupavani",
@@ -2430,7 +2411,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "163",
+      "id": "162",
       "samithiName": "Ashok Nagar Samithi",
       "centreName": "Nutech Indira",
       "guruName": "Priya",
@@ -2445,7 +2426,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "164",
+      "id": "163",
       "samithiName": "Valasaravakkam Samithi",
       "centreName": "Vasantha Sairam",
       "guruName": "Vasantha",
@@ -2460,7 +2441,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "165",
+      "id": "164",
       "samithiName": "Valasaravakkam Samithi",
       "centreName": "Rajeswari",
       "guruName": "Rajeswari",
@@ -2475,7 +2456,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "166",
+      "id": "165",
       "samithiName": "Valasaravakkam Samithi",
       "centreName": "Anand Kumar & Mrs Vijayakumari",
       "guruName": "Anand Kumar & Mrs Vijayakumari",
@@ -2490,7 +2471,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "167",
+      "id": "166",
       "samithiName": "Valasaravakkam Samithi",
       "centreName": "V Priyadarshini",
       "guruName": "V Priyadarshini",
@@ -2505,7 +2486,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "168",
+      "id": "167",
       "samithiName": "Valasaravakkam Samithi",
       "centreName": "Meenakshi Sivakumar",
       "guruName": "Meenakshi Sivakumar",
@@ -2520,7 +2501,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "169",
+      "id": "168",
       "samithiName": "Kodambakkam Samithi",
       "centreName": "Trustpuram centre",
       "guruName": "K Malathi",
@@ -2535,7 +2516,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "170",
+      "id": "169",
       "samithiName": "Kodambakkam Samithi",
       "centreName": "Vannier Street",
       "guruName": "N.PADMARAO",
@@ -2550,7 +2531,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "171",
+      "id": "170",
       "samithiName": "Kodambakkam Samithi",
       "centreName": "Sai Krishna",
       "guruName": "N.Sharmila",
@@ -2565,7 +2546,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "172",
+      "id": "171",
       "samithiName": "Kodambakkam Samithi",
       "centreName": "Shishya school",
       "guruName": "Maivizhi",
@@ -2580,7 +2561,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "173",
+      "id": "172",
       "samithiName": "Nesapakkam Samithi",
       "centreName": "Vaidyanatha Baba Temple",
       "guruName": "Gayathri rajagopal",
@@ -2596,7 +2577,7 @@
       "googleMapLink": "https://g.co/kgs/aG3CRni"
     },
     {
-      "id": "174",
+      "id": "173",
       "samithiName": "Rangarajapuram Samithi",
       "centreName": "Sai Murugan Trust",
       "guruName": "Charanya",
@@ -2611,7 +2592,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "175",
+      "id": "174",
       "samithiName": "Bharathidasan Colony Samithi",
       "centreName": "S M block B V Centre",
       "guruName": "USHADEVI.P",
@@ -2626,7 +2607,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "176",
+      "id": "175",
       "samithiName": "Kknagar Samithi",
       "centreName": "AVM Asta BV centre",
       "guruName": "Kamala Meenakshi",
@@ -2641,7 +2622,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "177",
+      "id": "176",
       "samithiName": "U I colony Samithi",
       "centreName": "U I colony BV centre",
       "guruName": "Devaki Rajamani",
@@ -2656,7 +2637,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "178",
+      "id": "177",
       "samithiName": "U I colony Samithi",
       "centreName": "Railway colony BV centre",
       "guruName": "P M Sasikala Sekhar",
@@ -2671,7 +2652,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "179",
+      "id": "178",
       "samithiName": "Saligramam Samithi",
       "centreName": "Saligramam samithi",
       "guruName": "Anuradha vivekanandhan",
@@ -2686,7 +2667,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "180",
+      "id": "179",
       "samithiName": "T Nagar Samithi",
       "centreName": "Sai Kesav Hall",
       "guruName": "Mrs.Pekal Mohodaya",
@@ -2701,7 +2682,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "181",
+      "id": "180",
       "samithiName": "T Nagar Samithi",
       "centreName": "Mrs. IndraDevi's Residence",
       "guruName": "Mrs. Indradevi",
@@ -2716,7 +2697,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "182",
+      "id": "181",
       "samithiName": "T Nagar Samithi",
       "centreName": "Ms.V. Neeraja's Residence",
       "guruName": "Mrs. Neeraja",
@@ -2731,7 +2712,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "183",
+      "id": "182",
       "samithiName": "T Nagar Samithi",
       "centreName": "Sai Pushpanjali",
       "guruName": "Mrs. Malathi Sundaresan",
@@ -2746,7 +2727,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "184",
+      "id": "183",
       "samithiName": "T Nagar Samithi",
       "centreName": "Sai Jyothi",
       "guruName": "Mrs. Sharmila Shivakumar",
@@ -2761,7 +2742,7 @@
       "district": "Chennai West"
     },
     {
-      "id": "185",
+      "id": "184",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Vagheesa Nagar Chidambaram ",
       "guruName": "V. Chandrasekar ",
@@ -2776,7 +2757,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "186",
+      "id": "185",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Anantheeswara Mada Vilagam ",
       "guruName": "E. Indrani",
@@ -2791,7 +2772,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "187",
+      "id": "186",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Vagheesa Nagar Samithi",
       "guruName": "K. Manjula",
@@ -2806,7 +2787,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "188",
+      "id": "187",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Vagesan nagar samithi centre ",
       "guruName": "Arunapradeepa.D",
@@ -2821,7 +2802,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "189",
+      "id": "188",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Vedavalli Nagar ",
       "guruName": "G. Ramalingam ",
@@ -2836,7 +2817,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "190",
+      "id": "189",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "guruName": "DHANRAJ. B",
       "guruContactNumber": "9360172673",
@@ -2850,7 +2831,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "191",
+      "id": "190",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Gandhi Manram",
       "guruName": "S. Tamilarasi",
@@ -2865,7 +2846,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "192",
+      "id": "191",
       "samithiName": "Cuddalore Samithi ",
       "guruName": "Kumuda Varadhan",
       "guruContactNumber": "9361010110",
@@ -2879,7 +2860,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "193",
+      "id": "192",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Ghandhi nagar ",
       "guruName": "Lalitha ",
@@ -2894,7 +2875,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "194",
+      "id": "193",
       "samithiName": "Neyveli Samithi",
       "centreName": "Sri sathya sai balvikas center ",
       "guruName": "Kavitha Saiprasad ",
@@ -2909,7 +2890,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "195",
+      "id": "194",
       "samithiName": "Neyveli Samithi",
       "centreName": "KURINJIPADI ",
       "guruName": "Nithya rajeswari.V",
@@ -2924,7 +2905,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "196",
+      "id": "195",
       "samithiName": "Neyveli Samithi",
       "centreName": "Sai Krupa ",
       "guruName": "Muralidharan T J ",
@@ -2939,7 +2920,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "197",
+      "id": "196",
       "samithiName": "Neyveli Samithi",
       "centreName": "Bharathi Nagar ",
       "guruName": "Sathya Bhama V ",
@@ -2951,7 +2932,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "198",
+      "id": "197",
       "samithiName": "Neyveli Samithi",
       "centreName": "Kubera Sai temple ",
       "guruName": "R. Geetha ",
@@ -2966,7 +2947,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "199",
+      "id": "198",
       "samithiName": "Neyveli Samithi",
       "centreName": "KURINJIPADI ",
       "guruName": "Nithya rajeswari.V",
@@ -2981,7 +2962,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "200",
+      "id": "199",
       "samithiName": "Neyveli Samithi",
       "centreName": "Indira nagar ",
       "guruName": "M.Kumar ",
@@ -2996,7 +2977,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "201",
+      "id": "200",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "Thangamani ammal garden centre",
       "guruName": "S.Mohanapriya",
@@ -3011,7 +2992,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "202",
+      "id": "201",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "Bharathidasan Lane centre",
       "guruName": "S.Saigeetha Sridharan",
@@ -3026,7 +3007,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "203",
+      "id": "202",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "VNR Nagar centre ",
       "guruName": "S.Umamaheshwari",
@@ -3041,7 +3022,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "204",
+      "id": "203",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "Sri Sathya Sai seva samithi",
       "guruName": "V.Arutselvi",
@@ -3056,7 +3037,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "205",
+      "id": "204",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "Mullai Nagar centre ",
       "guruName": "G.Sudha",
@@ -3071,7 +3052,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "206",
+      "id": "205",
       "samithiName": "Vridhachalam Samithi",
       "centreName": "Gopurapuram centre ",
       "guruName": "D.Lakshmi",
@@ -3086,7 +3067,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "207",
+      "id": "206",
       "samithiName": "Koothapakkam Samithi ",
       "centreName": "Koothapakkam samithi",
       "guruName": "V Nalina , B Dwarakasai",
@@ -3099,7 +3080,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "208",
+      "id": "207",
       "samithiName": "Koothapakkam Samithi ",
       "centreName": "MKS nagar mandali",
       "guruName": "Dwaragaa Sai Sathya.b",
@@ -3114,7 +3095,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "209",
+      "id": "208",
       "samithiName": "Neyveli Samithi",
       "centreName": "Neyveli Samithi ",
       "guruName": "K. Hariharan ",
@@ -3129,7 +3110,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "210",
+      "id": "209",
       "samithiName": "Neyveli Samithi",
       "centreName": "Venkatanpettai",
       "guruName": "G Himasylaja",
@@ -3144,7 +3125,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "211",
+      "id": "210",
       "samithiName": "Neyveli Samithi",
       "centreName": "Block-6,Sai Mandali. ",
       "guruName": "R.MARAN ",
@@ -3159,7 +3140,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "212",
+      "id": "211",
       "samithiName": "Neyveli Samithi",
       "centreName": "Venkatampettai c centre",
       "guruName": "Dr.J.Balaramasubramanian",
@@ -3174,7 +3155,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "213",
+      "id": "212",
       "samithiName": "Neyveli Samithi",
       "guruName": "Padmavathy G",
       "guruContactNumber": "9488794184",
@@ -3188,7 +3169,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "214",
+      "id": "213",
       "samithiName": "Sai Premai Nilayam RVS Nagar.",
       "guruName": "Mrs.Kumudha Varadhan",
       "guruContactNumber": "9361010110",
@@ -3198,7 +3179,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "215",
+      "id": "214",
       "samithiName": "Sai Premai Nilayam RVS Nagar.",
       "guruName": "Mrs.Saroja",
       "guruContactNumber": "9442222543",
@@ -3208,7 +3189,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "216",
+      "id": "215",
       "samithiName": "Sai Premai Nilayam RVS Nagar.",
       "guruName": "Mrs.Gowri",
       "guruContactNumber": "8668047861",
@@ -3218,7 +3199,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "217",
+      "id": "216",
       "samithiName": "Sai Premai Nilayam RVS Nagar.",
       "guruName": "Mrs Parimala Sankar",
       "guruContactNumber": "8870114666",
@@ -3228,7 +3209,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "218",
+      "id": "217",
       "samithiName": "Neyveli Samithi",
       "centreName": "Dhideerkuppam Bv Center",
       "guruName": "Bhavani Priya",
@@ -3243,7 +3224,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "219",
+      "id": "218",
       "samithiName": "Kaaramanikuppam Samithi",
       "centreName": "Nellikuppam Bv centre",
       "guruName": "Anandhi V",
@@ -3254,7 +3235,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "220",
+      "id": "219",
       "samithiName": "Vagheesa Nagar Samithi Chidambaram ",
       "centreName": "Ghandhi Nagar",
       "guruName": "Meera Janakiraman",
@@ -3269,7 +3250,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "221",
+      "id": "220",
       "samithiName": "Cuddalore Samithi ",
       "centreName": "V.Palayam By Center",
       "guruName": "A. Gowri.",
@@ -3284,7 +3265,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "222",
+      "id": "221",
       "samithiName": "Cuddalore Samithi ",
       "centreName": "No,19 Mariyamman kovil strt,Anaikuppam, cuddalore 1",
       "guruName": "R.Saroja",
@@ -3299,7 +3280,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "223",
+      "id": "222",
       "samithiName": "Koothapakkam Samithi ",
       "centreName": "5,Dhanalakshmi Nagar, Thirupapuliyur, Cuddalore 2",
       "guruName": "C. S. Venkateswaran",
@@ -3314,7 +3295,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "224",
+      "id": "223",
       "samithiName": "Cuddalore Samithi ",
       "guruName": "Parimala",
       "guruContactNumber": "8870114666",
@@ -3328,7 +3309,7 @@
       "district": "Cuddalore"
     },
     {
-      "id": "225",
+      "id": "224",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "Perambur bhajan mandali ",
       "guruName": "Nirmala Sankaran ",
@@ -3344,7 +3325,7 @@
       "googleMapLink": "Perambur "
     },
     {
-      "id": "226",
+      "id": "225",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "Manalmedu",
       "guruName": "Chitragowrishankar.s",
@@ -3360,7 +3341,7 @@
       "googleMapLink": "https://maps.app.goo.gl/xyL5oY8LrpfVMR1S9"
     },
     {
-      "id": "227",
+      "id": "226",
       "samithiName": "Thirunagari Samithi",
       "centreName": "puthuthurai",
       "guruName": "maheshwari ",
@@ -3376,7 +3357,7 @@
       "googleMapLink": "https://maps.app.goo.gl/78XUzRPtkZwuZ8Ub9"
     },
     {
-      "id": "228",
+      "id": "227",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "perambur ",
       "guruName": "Nirmala sangaran ",
@@ -3392,7 +3373,7 @@
       "googleMapLink": "https://maps.app.goo.gl/2gCqCCSG6kJZqVK4A"
     },
     {
-      "id": "229",
+      "id": "228",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "kovilpathu",
       "guruName": "Rajendiran ",
@@ -3408,7 +3389,7 @@
       "googleMapLink": "https://maps.app.goo.gl/p76DVuPjy1mNEKLA8"
     },
     {
-      "id": "230",
+      "id": "229",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Kuravalure",
       "guruName": "Akila",
@@ -3424,7 +3405,7 @@
       "googleMapLink": "https://g.co/kgs/a7xi7RK"
     },
     {
-      "id": "231",
+      "id": "230",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Maggaimadam",
       "guruName": "Manimekalai ",
@@ -3440,7 +3421,7 @@
       "googleMapLink": "https://maps.app.goo.gl/bxcgXGqmfNVeBDDa9"
     },
     {
-      "id": "232",
+      "id": "231",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Annappanpettai",
       "guruName": "Akila",
@@ -3456,7 +3437,7 @@
       "googleMapLink": "https://maps.app.goo.gl/osq8WovYVJybwQ2U8"
     },
     {
-      "id": "233",
+      "id": "232",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Mathapattinam ",
       "guruName": "Manimekalai ",
@@ -3472,7 +3453,7 @@
       "googleMapLink": "https://maps.app.goo.gl/sJ2HDxPx61P58BmH8"
     },
     {
-      "id": "234",
+      "id": "233",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Thennapattinam ",
       "guruName": "Akila",
@@ -3488,7 +3469,7 @@
       "googleMapLink": "https://maps.app.goo.gl/QhzWyDTa5VXEmRwa6"
     },
     {
-      "id": "235",
+      "id": "234",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Maggaimadam ",
       "guruName": "Manimekalai ",
@@ -3504,7 +3485,7 @@
       "googleMapLink": "https://maps.app.goo.gl/Xa3MSkjNXkMLP1EV8"
     },
     {
-      "id": "236",
+      "id": "235",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Embavai",
       "guruName": "Akila",
@@ -3520,7 +3501,7 @@
       "googleMapLink": "https://maps.app.goo.gl/vgKqokdJDX3c8tet6"
     },
     {
-      "id": "237",
+      "id": "236",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Thiruvalaggadu",
       "guruName": "Manimekalai",
@@ -3536,7 +3517,7 @@
       "googleMapLink": "https://maps.app.goo.gl/DzAEFH47x7xQCYxm6"
     },
     {
-      "id": "238",
+      "id": "237",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Keezhasatanathapuram",
       "guruName": "Akila",
@@ -3552,7 +3533,7 @@
       "googleMapLink": "https://maps.app.goo.gl/1H4W6q2jcua6x32x5"
     },
     {
-      "id": "239",
+      "id": "238",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Kavalambadi",
       "guruName": "Manimekalai",
@@ -3568,7 +3549,7 @@
       "googleMapLink": "https://maps.app.goo.gl/nUajS1GavJS8CShp8"
     },
     {
-      "id": "240",
+      "id": "239",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Palayapalayam",
       "guruName": "Akila",
@@ -3584,7 +3565,7 @@
       "googleMapLink": "https://maps.app.goo.gl/SNYpepHzG7hoLpsZ6"
     },
     {
-      "id": "241",
+      "id": "240",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Vettagudy",
       "guruName": "Manimekalai",
@@ -3600,7 +3581,7 @@
       "googleMapLink": "https://maps.app.goo.gl/xif8z3AELXdMeGjq7"
     },
     {
-      "id": "242",
+      "id": "241",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Melaperambalam",
       "guruName": "Akila",
@@ -3616,7 +3597,7 @@
       "googleMapLink": "https://maps.app.goo.gl/vHrbXhThxWJtt8YN6"
     },
     {
-      "id": "243",
+      "id": "242",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Eravakollai",
       "guruName": "Manimekalai",
@@ -3632,7 +3613,7 @@
       "googleMapLink": "https://maps.app.goo.gl/VB6JQ4HZtjpEwuSk8"
     },
     {
-      "id": "244",
+      "id": "243",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Veppakulam",
       "guruName": "Akila",
@@ -3648,7 +3629,7 @@
       "googleMapLink": "https://maps.app.goo.gl/CNE23XZhKK9aiiwt9"
     },
     {
-      "id": "245",
+      "id": "244",
       "samithiName": "Thirunagari Samithi",
       "centreName": "Vembadi",
       "guruName": "Manimekalai",
@@ -3664,7 +3645,7 @@
       "googleMapLink": "https://maps.app.goo.gl/qwuX6vzSALw3MohS9"
     },
     {
-      "id": "246",
+      "id": "245",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "vilandira samiththiram",
       "guruName": "latha narasimman",
@@ -3680,7 +3661,7 @@
       "googleMapLink": "https://maps.app.goo.gl/qm9QdPBAoX15Tztt6"
     },
     {
-      "id": "247",
+      "id": "246",
       "samithiName": "Sirkazhi Town samithi",
       "centreName": "Town Samithi",
       "guruName": "Narasimmn",
@@ -3696,7 +3677,7 @@
       "googleMapLink": "https://maps.app.goo.gl/XyQpvBwb4FSTvNMH7"
     },
     {
-      "id": "248",
+      "id": "247",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "Thittai",
       "guruName": "Selvi",
@@ -3712,7 +3693,7 @@
       "googleMapLink": "https://maps.app.goo.gl/iPSE4382tNNCtaUQA"
     },
     {
-      "id": "249",
+      "id": "248",
       "samithiName": "Mayiladuthurai",
       "centreName": "Kuthalam bhajana Mantali",
       "guruName": "Sai Shanmugapriya",
@@ -3728,7 +3709,7 @@
       "googleMapLink": "https://maps.app.goo.gl/jdPosWKbCEtSedDLA"
     },
     {
-      "id": "250",
+      "id": "249",
       "samithiName": "mayiladuthurai",
       "centreName": "Anbagam",
       "guruName": "Renuga",
@@ -3744,7 +3725,7 @@
       "googleMapLink": "https://maps.app.goo.gl/ovSMPViU8dDHEbQf9"
     },
     {
-      "id": "251",
+      "id": "250",
       "samithiName": "Sirkazhi Samithi",
       "centreName": "Anbagam",
       "guruName": "Latha narasimman & Chitragowrishankar",
@@ -3760,7 +3741,7 @@
       "googleMapLink": "https://maps.app.goo.gl/3yAif6Tcs6cXPsmx9"
     },
     {
-      "id": "252",
+      "id": "251",
       "samithiName": "Town Samithi",
       "centreName": "Town Samithi",
       "guruName": "Mrs Vidya Ramachandran",
@@ -3771,11 +3752,11 @@
       "ecContact": "9245374095",
       "convenorName": "Shri. Rajasingham",
       "convenorContact": "9443293020",
-      "area": "Santhi nagar",
+      "area": "Santhi nagar, Pondicherry",
       "district": "Pondicherry"
     },
     {
-      "id": "253",
+      "id": "252",
       "samithiName": "Town Samithi",
       "centreName": "Krishna nagar",
       "guruName": "Mrs. Sivagamasundari. R",
@@ -3786,11 +3767,11 @@
       "ecContact": "9245374095",
       "convenorName": "Shri. Rajasingham",
       "convenorContact": "9443293020",
-      "area": "Krishna Nagar",
+      "area": "Krishna Nagar, Pondicherry",
       "district": "Pondicherry"
     },
     {
-      "id": "254",
+      "id": "253",
       "samithiName": "Town Samithi",
       "centreName": "Kosapalayam",
       "guruName": "Mrs Prashanthy",
@@ -3805,7 +3786,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "255",
+      "id": "254",
       "samithiName": "Town Samithi",
       "centreName": "Vanniya perumal",
       "guruName": "Mrs. Vidya Ramachandran",
@@ -3820,7 +3801,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "256",
+      "id": "255",
       "samithiName": "Town Samithi",
       "centreName": "Rajakali Amman",
       "guruName": "Mrs Sasikala & Mrs Sudharani",
@@ -3834,7 +3815,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "257",
+      "id": "256",
       "samithiName": "Jipmer Samithi",
       "centreName": "Vasanthapuram",
       "guruName": "Mrs. Neela Seetharaman",
@@ -3849,7 +3830,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "258",
+      "id": "257",
       "samithiName": "Jipmer Samithi",
       "centreName": "Ganesh Temple",
       "guruName": "Mrs. Sayilatha",
@@ -3864,7 +3845,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "259",
+      "id": "258",
       "samithiName": "Jipmer Samithi",
       "centreName": "Jipmer - Sai Saraswathi",
       "guruName": "Mrs. Usha Umashankar",
@@ -3879,7 +3860,7 @@
       "googleMapLink": "https://maps.app.goo.gl/TWJySHD2z3NERwTMA"
     },
     {
-      "id": "260",
+      "id": "259",
       "samithiName": "Jipmer Samithi",
       "centreName": "Mohan nagar",
       "guruName": "Mrs.Neela Seetharaman",
@@ -3894,7 +3875,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "261",
+      "id": "260",
       "samithiName": "Mohan Nagar",
       "centreName": "Thanthai periyar nagar",
       "guruName": "Mrs. Hemalatha",
@@ -3909,7 +3890,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "262",
+      "id": "261",
       "samithiName": "Kurunji Nagar",
       "centreName": "Tagore nagar",
       "guruName": "Mrs. Vijayalakshmi",
@@ -3924,7 +3905,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "263",
+      "id": "262",
       "samithiName": "Kurunji Nagar",
       "centreName": "Kuruniji Nagar",
       "guruName": "Mrs. Gowri",
@@ -3939,7 +3920,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "264",
+      "id": "263",
       "samithiName": "Kurunji Nagar",
       "centreName": "Rajaji Nagar",
       "guruName": "Mrs.D. Geethlatha",
@@ -3954,7 +3935,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "265",
+      "id": "264",
       "samithiName": "Kurunji Nagar",
       "centreName": "Bharathi nagar",
       "guruName": "Mrs. Devi Ashok kumar",
@@ -3969,7 +3950,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "266",
+      "id": "265",
       "samithiName": "Sai krishna",
       "centreName": "Sai krishna",
       "guruName": "Mrs. Sridevi",
@@ -3985,7 +3966,7 @@
       "googleMapLink": "https://maps.app.goo.gl/TuyREAQqpcFWsfoo8"
     },
     {
-      "id": "267",
+      "id": "266",
       "samithiName": "Thirubhuvanai",
       "centreName": "Padimini nagar",
       "guruName": "Mrs. Vijayashree. N",
@@ -4000,7 +3981,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "268",
+      "id": "267",
       "samithiName": "Thirubhuvanai",
       "centreName": "Thirubhuvanai",
       "guruName": "Ms. Kamali",
@@ -4015,7 +3996,7 @@
       "district": "Pondicherry"
     },
     {
-      "id": "269",
+      "id": "268",
       "samithiName": "Ambattur Samithi",
       "centreName": "East Balaji Nagar Unit",
       "guruName": "Smt. Madhu Narayan",
@@ -4030,7 +4011,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "270",
+      "id": "269",
       "samithiName": "Ambattur Samithi",
       "centreName": "Venkatapuram Unit 1 - Ambattur",
       "guruName": "R Vimala Rani",
@@ -4045,7 +4026,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "271",
+      "id": "270",
       "samithiName": "Ambattur Samithi",
       "centreName": "Venkatapuram Unit 2 - Ambattur",
       "guruName": "S. Geethalakshmi",
@@ -4060,7 +4041,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "272",
+      "id": "271",
       "samithiName": "Ambattur Samithi",
       "centreName": "VIJAYALAKSHMIPURAM UNIT-Ambattur",
       "guruName": "M.Shreevidhya Assisted by Mira.M.Krishnan ",
@@ -4075,7 +4056,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "273",
+      "id": "272",
       "samithiName": "Ambattur Samithi",
       "centreName": "VARADARAJAPURAM UNIT - Ambattur",
       "guruName": " P.Anita devi",
@@ -4090,7 +4071,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "274",
+      "id": "273",
       "samithiName": "Ambattur Samithi",
       "centreName": "Anandam Home-Ambattur",
       "guruName": "Venkataraman / Rama / Meenakshi Shanmugam",
@@ -4105,7 +4086,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "275",
+      "id": "274",
       "samithiName": "Ambattur Samithi",
       "centreName": "GNANAMOORTHY NAGAR Unit - Ambattur",
       "guruName": " R.Priyadharshni ",
@@ -4120,7 +4101,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "276",
+      "id": "275",
       "samithiName": "Ambattur Samithi",
       "centreName": " EAST BALAJI NAGAR UNIT - Ambattur",
       "guruName": "Madhu Narayan",
@@ -4135,7 +4116,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "277",
+      "id": "276",
       "samithiName": "Ambattur Samithi",
       "centreName": "JB Nagar UNIT - Ambattur",
       "guruName": "Priyadarshini",
@@ -4150,7 +4131,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "278",
+      "id": "277",
       "samithiName": "Ambattur Samithi",
       "centreName": "Menambedu Unit - Ambattur",
       "guruName": "Jayashree Narayanan/Sudharshanam",
@@ -4165,7 +4146,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "279",
+      "id": "278",
       "samithiName": "Senthil Nagar Samithi",
       "centreName": "Mukudan street centre",
       "guruName": "Sowmya Mukund",
@@ -4180,7 +4161,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "280",
+      "id": "279",
       "samithiName": "Korattur Samithi",
       "centreName": "PATTRAVAKKAM CENTRE",
       "guruName": "T N RANGANATHAN",
@@ -4196,7 +4177,7 @@
       "googleMapLink": "https://www.google.com/search?sca_esv=8eb6b7e217a76a85&rlz=1C1CHBD_enIN1004IN1004&tbm=lcl&sxsrf=ADLYWIIVlLsxV83XjspjNewv2sujYO76tQ:1736065219651&q=LAKSHMI+GANAPATHI+KOVIL+DTP+COLONY+KARUKKU+CHENNAI+-+600053.&rflfq=1&num=10&sa=X&ved=2ahUKEwimhOX1kt6KAxWJdfUHHf06McgQjGp6BAgwEAE&biw=1707&bih=781&dpr=1.13#rlfi=hd:;si:7947574140233220978,l,CjxMQUtTSE1JIEdBTkFQQVRISSBLT1ZJTCBEVFAgQ09MT05ZIEtBUlVLS1UgQ0hFTk5BSSAtIDYwMDA1My5IwvKkk6CugIAIWk8QABABEAIYARgCGAMYBBgFGAYYByI5bGFrc2htaSBnYW5hcGF0aGkga292aWwgZHRwIGNvbG9ueSBrYXJ1a2t1IGNoZW5uYWkgNjAwMDUzkgEMaGluZHVfdGVtcGxlqgF_EAEqGyIXbGFrc2htaSBnYW5hcGF0aGkga292aWwoADIfEAEiG5sdV7vVZsYVFjSFbe_y1Mh5blNvtiADKesMTTI9EAIiOWxha3NobWkgZ2FuYXBhdGhpIGtvdmlsIGR0cCBjb2xvbnkga2FydWtrdSBjaGVubmFpIDYwMDA1Mw;mv:[[13.296065599999999,80.2771217],[12.841286,79.9020109]]"
     },
     {
-      "id": "281",
+      "id": "280",
       "samithiName": "Ayapakkam Samithi",
       "guruName": "Anitha ",
       "guruContactNumber": "9004651347",
@@ -4210,7 +4191,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "282",
+      "id": "281",
       "samithiName": "Ennore  Samithi ",
       "centreName": "Samithi Balavikas.",
       "guruName": "Deepika .K.",
@@ -4225,7 +4206,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "283",
+      "id": "282",
       "samithiName": "Ennore Samithi ",
       "centreName": "Residential.",
       "guruName": "R. Mathivathanan.",
@@ -4240,7 +4221,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "284",
+      "id": "283",
       "samithiName": "Korattur Samithi",
       "centreName": "SIVANANDA YOGA AND THERAPY CENTRE",
       "guruName": "RAJKUMARI SRINIVASAN",
@@ -4256,7 +4237,7 @@
       "googleMapLink": "https://g.page/sivananda-yogatherapy-centre?share"
     },
     {
-      "id": "285",
+      "id": "284",
       "samithiName": "Korattur Samithi",
       "centreName": "SSN",
       "guruName": "Mala kumar",
@@ -4271,7 +4252,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "286",
+      "id": "285",
       "samithiName": "Porur Samithi",
       "centreName": "Kattupakkam",
       "guruName": "Sathiya B",
@@ -4286,7 +4267,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "287",
+      "id": "286",
       "samithiName": "Villivakkam Samithi",
       "centreName": "Rajarajeshwari nagar",
       "guruName": "R. Ambika",
@@ -4301,7 +4282,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "288",
+      "id": "287",
       "samithiName": "Korattur Samithi",
       "centreName": "JSK CENTRE",
       "guruName": "JAYANTHI SAMPATHKUMAR",
@@ -4317,7 +4298,7 @@
       "googleMapLink": "https://goo.gl/maps/c6YjVCFiJtmjyG\r\nKn9"
     },
     {
-      "id": "289",
+      "id": "288",
       "samithiName": "Korattur East Samithi",
       "centreName": "GRN HIGH GATE",
       "guruName": "RAJKUMARI SRINIVASAN",
@@ -4333,7 +4314,7 @@
       "googleMapLink": "https://goo.gl/maps/NnHeGcUb6kxT\r\nhVw69"
     },
     {
-      "id": "290",
+      "id": "289",
       "samithiName": "Korattur Samithi",
       "centreName": "AMUDHAM CENTRE",
       "guruName": "T N RANGANATHAN",
@@ -4349,7 +4330,7 @@
       "googleMapLink": "https://goo.gl/maps/8uQ7E59yzVxqf\r\nPwg7"
     },
     {
-      "id": "291",
+      "id": "290",
       "samithiName": "Korattur Samithi",
       "centreName": "SUBBULAKSHMI CENTRE",
       "guruName": "K PRIYANGA",
@@ -4365,7 +4346,7 @@
       "googleMapLink": "https://maps.app.goo.gl/saBm65eC7nUqCJvB9"
     },
     {
-      "id": "292",
+      "id": "291",
       "samithiName": "Korattur Samithi",
       "centreName": "SS NAGAR CENTRE",
       "guruName": "MALA KUMAR",
@@ -4381,7 +4362,7 @@
       "googleMapLink": "https://www.google.com/maps/place/13%C2%B006'20.7%22N+80%C2%B010'56.3%22E/@13.1057387,80.179728,907m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d13.1057387!4d80.1823029?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-      "id": "293",
+      "id": "292",
       "samithiName": "Korattur Samithi",
       "centreName": "TWIN PARADISE CENTRE",
       "guruName": "KANNAMAI",
@@ -4397,7 +4378,7 @@
       "googleMapLink": "https://www.google.com/maps/place/13%C2%B006'20.7%22N+80%C2%B010'56.3%22E/@13.1057387,80.179728,907m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d13.1057387!4d80.1823029?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-      "id": "294",
+      "id": "293",
       "samithiName": "Korattur Samithi",
       "centreName": "SECOND STREET CENTRE",
       "guruName": "SUPRIYA REKHA BALVI",
@@ -4413,7 +4394,7 @@
       "googleMapLink": "https://goo.gl/maps/BGG8G6mGwV\r\nZYZxX8A"
     },
     {
-      "id": "295",
+      "id": "294",
       "samithiName": "PorurSamithi",
       "centreName": "Bhai Kadai",
       "guruName": "Padma Suresh",
@@ -4428,7 +4409,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "296",
+      "id": "295",
       "samithiName": "Porur Samithi",
       "centreName": "Madanandapuram",
       "guruName": "Sumathy",
@@ -4443,7 +4424,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "297",
+      "id": "296",
       "samithiName": "Arani Samithi",
       "centreName": "Minjur",
       "guruName": "S. Bhuvaneswari",
@@ -4459,7 +4440,7 @@
       "googleMapLink": "https://maps.app.goo.gl/FBHscK8UF33T1WRe6"
     },
     {
-      "id": "298",
+      "id": "297",
       "samithiName": "Ponneri Samithi",
       "centreName": "Arani",
       "guruName": "U. Maheswari",
@@ -4474,7 +4455,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "299",
+      "id": "298",
       "samithiName": "Porur Samithi",
       "centreName": "Ponneri",
       "guruName": "A. Shyamala",
@@ -4489,7 +4470,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "300",
+      "id": "299",
       "samithiName": "Porur Samithi",
       "centreName": "Mangala Nagar",
       "guruName": "Sowmya Sathiyanarayan",
@@ -4504,7 +4485,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "301",
+      "id": "300",
       "samithiName": "Porur Samithi",
       "centreName": "Mangala Nagar",
       "guruName": "Sathiya B",
@@ -4519,7 +4500,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "302",
+      "id": "301",
       "samithiName": "Porur Samithi",
       "centreName": "Iyappanthangal",
       "guruName": "Praveena D",
@@ -4534,7 +4515,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "303",
+      "id": "302",
       "samithiName": "Redhills Samithi",
       "centreName": "Mangala Nagar",
       "guruName": "Veni P J",
@@ -4549,7 +4530,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "304",
+      "id": "303",
       "samithiName": "Senthil Nagar Samithi",
       "centreName": "Redhills samithi",
       "guruName": "Sridevi M",
@@ -4562,7 +4543,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "305",
+      "id": "304",
       "samithiName": "Senthil Nagar Samithi",
       "centreName": "Manikandapuram",
       "guruName": "Sathya narayanan",
@@ -4577,7 +4558,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "306",
+      "id": "305",
       "samithiName": "Senthil Nagar Samithi",
       "centreName": "Patel street centre",
       "guruName": "Radha",
@@ -4592,7 +4573,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "307",
+      "id": "306",
       "samithiName": "Senthil Nagar Samithi",
       "centreName": "Senthil nagar samithi centre",
       "guruName": "Meenakshi shivkumar",
@@ -4607,7 +4588,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "308",
+      "id": "307",
       "samithiName": "Korattur Samithi",
       "centreName": "Kennedy street centre",
       "guruName": "Anusha",
@@ -4622,7 +4603,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "309",
+      "id": "308",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "VGN STAFFORD",
       "guruName": "MALA KUMAR",
@@ -4638,7 +4619,7 @@
       "googleMapLink": "VGN Stafford 044 4343 9999 https://g.co/kgs/8mStBD5"
     },
     {
-      "id": "310",
+      "id": "309",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Srisathyasai school ",
       "guruName": "Bhuvaneswari ",
@@ -4653,7 +4634,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "311",
+      "id": "310",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Kaladipet",
       "guruName": "Bhuvaneswari",
@@ -4668,7 +4649,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "312",
+      "id": "311",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Thiruvottiyur ",
       "guruName": "Priyagopi",
@@ -4683,7 +4664,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "313",
+      "id": "312",
       "samithiName": "Porur Samithi",
       "centreName": "Tuition centre",
       "guruName": "Prathima",
@@ -4698,7 +4679,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "314",
+      "id": "313",
       "samithiName": "Thiruvottiyur Samithi",
       "centreName": "Ragavendra Vidyalaya Nursery and Primary School, Gerugambakkam",
       "guruName": "Gurus in roster system",
@@ -4713,7 +4694,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "315",
+      "id": "314",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Sathyasai school centre",
       "guruName": "Padmavathy Venkatesh ",
@@ -4728,7 +4709,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "316",
+      "id": "315",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Thilagarnagar",
       "guruName": "Bhuvaneswari ",
@@ -4743,7 +4724,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "317",
+      "id": "316",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Tuition centre",
       "guruName": "Prathima krishnaraj",
@@ -4758,7 +4739,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "318",
+      "id": "317",
       "samithiName": "Thiruvottiyur  Samithi",
       "centreName": "Thiruvottiyur ",
       "guruName": "Priyagopi",
@@ -4773,7 +4754,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "319",
+      "id": "318",
       "samithiName": "Villivakkam Samithi",
       "centreName": "Revue Padmanaba school",
       "guruName": "Padmavathy venkatesh and Bhuvaneswari ",
@@ -4788,7 +4769,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "320",
+      "id": "319",
       "samithiName": "Villivakkam Samithi",
       "centreName": "Nethaji nagar",
       "guruName": "K. Sowjanya",
@@ -4803,7 +4784,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "321",
+      "id": "320",
       "samithiName": "Villivakkam",
       "centreName": "Rajaji nagar",
       "guruName": "C. Sai sudha",
@@ -4818,7 +4799,7 @@
       "district": "Thiruvallur East"
     },
     {
-      "id": "322",
+      "id": "321",
       "samithiName": "Thiruninravur Samithi ",
       "centreName": "Thiruninravur BV Center",
       "guruName": "Harish ",
@@ -4833,7 +4814,7 @@
       "district": "Thiruvallur West"
     },
     {
-      "id": "323",
+      "id": "322",
       "samithiName": "Avadi Samithi",
       "centreName": "Kamaraj Nagar ",
       "guruName": "Krishna Kumari ",

@@ -1,0 +1,166 @@
+const fs = require("fs");
+const { Pool } = require("pg");
+const helpers = require("../shared/helper");
+
+// Connect to Neon.tech
+const pool = new Pool({
+  connectionString:
+    "postgresql://neondb_owner:npg_7XGetQdwz4vq@ep-wild-sky-a5lukxmm-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require",
+  ssl: {
+    rejectUnauthorized: false,
+  },
+});
+
+async function insertBulkData() {
+  const client = await pool.connect();
+
+  try {
+    // Load JSON file
+    const data = JSON.parse(fs.readFileSync("././data/bvCentres.json", "utf8"));
+    for (const record of data) {
+      const query = `
+        INSERT INTO bv_centres (
+          samithi_name, centre_name, guru_name, guru_contact_number,
+          address, pincode, ec_name, ec_contact,
+          convenor_name, convenor_contact, area, district, googleMapLink
+        ) VALUES (
+          $1, $2, $3, $4,
+          $5, $6, $7, $8,
+          $9, $10, $11, $12, $13
+        )
+      `;
+
+      const values = [
+        record.samithiName,
+        record.centreName,
+        record.guruName,
+        record.guruContactNumber,
+        record.address,
+        record.pincode,
+        record.ecName,
+        record.ecContact,
+        record.convenorName,
+        record.convenorContact,
+        record.area,
+        record.district,
+        record.googleMapLink,
+      ];
+
+      await client.query(query, values);
+    }
+
+    console.log("✅ Data inserted successfully!");
+  } catch (err) {
+    console.error("❌ Error inserting data:", err);
+  } finally {
+    client.release();
+  }
+}
+
+async function getCentres() {
+  const client = await pool.connect();
+
+  try {
+    const result = await client.query("SELECT * FROM bv_centres order by id"); // Fetch data
+    console.log("✅ Data read successfully!");
+    const response = result.rows.map(helpers.transformToUiModel);
+    console.log('response', response)
+    return response;
+  } catch (err) {
+    console.error("❌ Error inserting data:", err);
+  } finally {
+    client.release();
+  }
+}
+
+async function updateCentre(id, data) {
+  console.log("udpateData");
+
+  const allowedColumns = [
+    'district', 'guru_name', 'samithi_name', 'centre_name', 'address', 'area',
+    'pincode', 'type', 'guru_contact_number', 'ec_name', 'ec_contact',
+    'convenor_name', 'convenor_contact', 'google_map_link', 'state'
+  ];
+
+  // Filter only valid fields present in the request
+  const entries = Object.entries(data).filter(([key]) => allowedColumns.includes(key));
+  if (entries.length === 0) {
+    throw new Error('No valid fields provided');
+  }
+
+  // Build SET clause and values
+  const setClause = entries.map(([key], idx) => `${key} = $${idx + 1}`).join(', ');
+  const values = entries.map(([, value]) => value);
+  values.push(id); // id is the last param
+
+  const query = `
+    UPDATE bv_centres
+    SET ${setClause}
+    WHERE id = $${values.length}
+    RETURNING *;
+  `;
+
+  const result = await pool.query(query, values);
+  return result.rows[0];
+}
+
+async function deleteCentre(id) {
+  console.log("deleteData");
+  const client = await pool.connect();
+  const deleteQuery = `DELETE FROM bv_centres WHERE id = $1 RETURNING *;`;
+
+  const result = await client.query(deleteQuery, [id]);
+  console.log(result);
+  return result.rows[0];
+
+}
+
+async function createCentre(record) {
+  const client = await pool.connect();
+
+  try {
+    const query = `
+        INSERT INTO bv_centres (
+          samithi_name, centre_name, guru_name, guru_contact_number,
+          address, pincode, ec_name, ec_contact,
+          convenor_name, convenor_contact, area, district, google_map_link
+        ) VALUES (
+          $1, $2, $3, $4,
+          $5, $6, $7, $8,
+          $9, $10, $11, $12, $13
+        )
+      `;
+
+    const values = [
+      record.samithiName,
+      record.centreName,
+      record.guruName,
+      record.guruContactNumber,
+      record.address,
+      record.pincode,
+      record.ecName,
+      record.ecContact,
+      record.convenorName,
+      record.convenorContact,
+      record.area,
+      record.district,
+      record.googleMapLink,
+    ];
+
+    const result = await client.query(query, values);
+    console.log("✅ Data inserted successfully!");
+    return result.rows[0];
+  } catch (err) {
+    console.error("❌ Error inserting data:", err);
+  } finally {
+    client.release();
+  }
+}
+
+module.exports = {
+  insertBulkData,
+  getCentres,
+  updateCentre,
+  deleteCentre,
+  createCentre,
+};

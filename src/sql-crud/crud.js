@@ -1,6 +1,9 @@
 const fs = require("fs");
 const { Pool } = require("pg");
 const helpers = require("../shared/helper");
+const {tables} = require("../shared/constants");
+
+const bv_centres_table = tables.CENTRES;
 
 // Connect to Neon.tech
 const pool = new Pool({
@@ -19,7 +22,7 @@ async function insertBulkData() {
     const data = JSON.parse(fs.readFileSync("././data/bvCentres.json", "utf8"));
     for (const record of data) {
       const query = `
-        INSERT INTO bv_centres (
+        INSERT INTO ${bv_centres_table} (
           samithi_name, centre_name, guru_name, guru_contact_number,
           address, pincode, ec_name, ec_contact,
           convenor_name, convenor_contact, area, district, googleMapLink
@@ -52,6 +55,7 @@ async function insertBulkData() {
     console.log("✅ Data inserted successfully!");
   } catch (err) {
     console.error("❌ Error inserting data:", err);
+    throw err;
   } finally {
     client.release();
   }
@@ -61,57 +65,70 @@ async function getCentres() {
   const client = await pool.connect();
 
   try {
-    const result = await client.query("SELECT * FROM bv_centres order by id"); // Fetch data
+    const result = await client.query(`SELECT * FROM ${bv_centres_table} order by id`); // Fetch data
     console.log("✅ Data read successfully!");
     const response = result.rows.map(helpers.transformToUiModel);
     console.log('response', response)
     return response;
   } catch (err) {
-    console.error("❌ Error inserting data:", err);
+    console.error("❌ Error getting data:", err);
+    throw err;
   } finally {
     client.release();
   }
 }
 
 async function updateCentre(id, data) {
-  console.log("udpateData");
+  try {
+    console.log("udpateData");
 
-  const allowedColumns = [
-    'district', 'guru_name', 'samithi_name', 'centre_name', 'address', 'area',
-    'pincode', 'type', 'guru_contact_number', 'ec_name', 'ec_contact',
-    'convenor_name', 'convenor_contact', 'google_map_link', 'state'
-  ];
-
-  // Filter only valid fields present in the request
-  const entries = Object.entries(data).filter(([key]) => allowedColumns.includes(key));
-  if (entries.length === 0) {
-    throw new Error('No valid fields provided');
-  }
-
-  // Build SET clause and values
-  const setClause = entries.map(([key], idx) => `${key} = $${idx + 1}`).join(', ');
-  const values = entries.map(([, value]) => value);
-  values.push(id); // id is the last param
-
-  const query = `
-    UPDATE bv_centres
-    SET ${setClause}
-    WHERE id = $${values.length}
-    RETURNING *;
-  `;
-
-  const result = await pool.query(query, values);
-  return result.rows[0];
+    const allowedColumns = [
+      'district', 'guru_name', 'samithi_name', 'centre_name', 'address', 'area',
+      'pincode', 'type', 'guru_contact_number', 'ec_name', 'ec_contact',
+      'convenor_name', 'convenor_contact', 'google_map_link', 'state'
+    ];
+  
+    // Filter only valid fields present in the request
+    const entries = Object.entries(data).filter(([key]) => allowedColumns.includes(key));
+    if (entries.length === 0) {
+      throw new Error('No valid fields provided');
+    }
+  
+    // Build SET clause and values
+    const setClause = entries.map(([key], idx) => `${key} = $${idx + 1}`).join(', ');
+    const values = entries.map(([, value]) => value);
+    values.push(id); // id is the last param
+  
+    const query = `
+      UPDATE ${bv_centres_table}
+      SET ${setClause}
+      WHERE id = $${values.length}
+      RETURNING *;
+    `;
+  
+    const result = await pool.query(query, values);
+    return result.rows[0];
+  } catch(err) {
+    console.error(err);
+    throw err;
+  } 
 }
 
 async function deleteCentre(id) {
-  console.log("deleteData");
   const client = await pool.connect();
-  const deleteQuery = `DELETE FROM bv_centres WHERE id = $1 RETURNING *;`;
-
-  const result = await client.query(deleteQuery, [id]);
-  console.log(result);
-  return result.rows[0];
+  try {
+    console.log("deleteData");
+    const deleteQuery = `DELETE FROM ${bv_centres_table} WHERE id = $1 RETURNING *;`;
+  
+    const result = await client.query(deleteQuery, [id]);
+    console.log(result);
+    return result.rows[0];
+  } catch(err) {
+    console.error(err);
+    throw err;
+  } finally {
+    client.release();
+  }
 
 }
 
@@ -120,7 +137,7 @@ async function createCentre(record) {
 
   try {
     const query = `
-        INSERT INTO bv_centres (
+        INSERT INTO ${bv_centres_table} (
           samithi_name, centre_name, guru_name, guru_contact_number,
           address, pincode, ec_name, ec_contact,
           convenor_name, convenor_contact, area, district, google_map_link

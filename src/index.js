@@ -34,7 +34,7 @@ app.post('/api/create-centre', async (req, res) => {
   const data = req.body;
 
   try {
-    crudOpsDto.createCentre(data);
+    await crudOpsDto.createCentre(data);
     res.status(201).json({ message: 'Centre created successfully'});
   } catch (err) {
     console.error('Insert error:', err);
@@ -45,7 +45,7 @@ app.post('/api/create-centre', async (req, res) => {
 app.post('/api/insert-bulk-centres', async (req, res) => {
 
   try {
-    crudOpsDto.insertBulkData();
+    await crudOpsDto.insertBulkData();
     res.status(201).json({ message: 'Centres created successfully'});
   } catch (err) {
     console.error('Insert error:', err);

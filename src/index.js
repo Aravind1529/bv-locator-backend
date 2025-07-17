@@ -15,7 +15,6 @@ app.use(express.json());
 const { Client } = require("pg");
 const crudOpsDto = require('./sql-crud/crud');
 
-const API_URL = 'https://tnnbvcentres-cmse.onrender.com/tnnBvCentres/';
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
@@ -37,6 +36,17 @@ app.post('/api/create-centre', async (req, res) => {
   try {
     crudOpsDto.createCentre(data);
     res.status(201).json({ message: 'Centre created successfully'});
+  } catch (err) {
+    console.error('Insert error:', err);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
+});
+
+app.post('/api/insert-bulk-centres', async (req, res) => {
+
+  try {
+    crudOpsDto.insertBulkData();
+    res.status(201).json({ message: 'Centres created successfully'});
   } catch (err) {
     console.error('Insert error:', err);
     res.status(500).json({ error: 'Something went wrong' });

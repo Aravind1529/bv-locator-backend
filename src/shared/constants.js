@@ -1,5 +1,6 @@
 module.exports = {
     tables: {
-      CENTRES: 'bv_centres'
+      BV_CENTRES: 'bv_centres'
+      // BV_CENTRES: 'bv_centres'
     },
 };

@@ -20,7 +20,7 @@ async function insertBulkData() {
   try {
     // Load JSON file
     // const data = JSON.parse(fs.readFileSync("././data/erode,theni,dindugal,karai,trichy.json", "utf8"));
-    const data = JSON.parse(fs.readFileSync("././data/null.json", "utf8")); //load proper json file to insert bulk data
+    const data = JSON.parse(fs.readFileSync("././data/madurai,darmapuri,kanyakumari,tvn,kanchiNorth.json", "utf8")); //load proper json file to insert bulk data
     for (const record of data) {
       const query = `
         INSERT INTO ${bv_centres_table} (

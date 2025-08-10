@@ -13,7 +13,8 @@ const fieldMap = {
     convenorName: 'convenor_name',
     convenorContact: 'convenor_contact',
     googleMapLink: 'google_map_link',
-    state: 'state'
+    state: 'state', 
+    city: 'city'
   };
   
   // Convert DB → UI

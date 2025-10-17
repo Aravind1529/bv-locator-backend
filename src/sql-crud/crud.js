@@ -86,7 +86,7 @@ async function updateCentre(id, data) {
     const allowedColumns = [
       'district', 'guru_name', 'samithi_name', 'centre_name', 'address', 'area',
       'pincode', 'type', 'guru_contact_number', 'ec_name', 'ec_contact',
-      'convenor_name', 'convenor_contact', 'google_map_link', 'state'
+      'convenor_name', 'convenor_contact', 'google_map_link', 'state', 'city'
     ];
   
     // Filter only valid fields present in the request
@@ -141,11 +141,11 @@ async function createCentre(record) {
         INSERT INTO ${bv_centres_table} (
           samithi_name, centre_name, guru_name, guru_contact_number,
           address, pincode, ec_name, ec_contact,
-          convenor_name, convenor_contact, area, district, google_map_link, state
+          convenor_name, convenor_contact, area, district, google_map_link, state, city
         ) VALUES (
           $1, $2, $3, $4,
           $5, $6, $7, $8,
-          $9, $10, $11, $12, $13, $14
+          $9, $10, $11, $12, $13, $14, $15
         )
       `;
 
@@ -163,7 +163,8 @@ async function createCentre(record) {
       record.area,
       record.district,
       record.googleMapLink,
-      record.state
+      record.state,
+      record.city
     ];
 
     const result = await client.query(query, values);

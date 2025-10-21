@@ -30,6 +30,16 @@ app.get('/api/centres', async (req, res) => {
   }
 });
 
+app.get('/api/centres/:id', async (req, res) => {
+  try {
+    const data = await crudOpsDto.getCentresById(req.params.id);
+    res.json(data);
+
+  } catch (error) {
+    res.status(500).json({ error: 'Error fetching data from external API' });
+  }
+});
+
 app.post('/api/create-centre', async (req, res) => {
   const data = req.body;
 

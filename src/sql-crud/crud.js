@@ -16,21 +16,23 @@ const pool = new Pool({
 
 async function insertBulkData() {
   const client = await pool.connect();
-
+  console.log("Started bulk insert .. pl wait");
   try {
     // Load JSON file
     // const data = JSON.parse(fs.readFileSync("././data/erode,theni,dindugal,karai,trichy.json", "utf8"));
-    const data = JSON.parse(fs.readFileSync("././data/madurai,darmapuri,kanyakumari,tvn,kanchiNorth.json", "utf8")); //load proper json file to insert bulk data
+    // const data = JSON.parse(fs.readFileSync("././data/madurai,darmapuri,kanyakumari,tvn,kanchiNorth.json", "utf8")); //load proper json file to insert bulk data
+    // const data = JSON.parse(fs.readFileSync("././data/3rd&4th-set-json.json", "utf8")); //load proper json file to insert bulk data
+    const data = JSON.parse(fs.readFileSync("././data/cbe.json", "utf8")); //load proper json file to insert bulk data
     for (const record of data) {
       const query = `
         INSERT INTO ${bv_centres_table} (
     samithi_name, centre_name, guru_name, guru_contact_number,
     address, pincode, ec_name, ec_contact,
-    convenor_name, convenor_contact, area, district, google_map_link, state
+    convenor_name, convenor_contact, area, district, google_map_link, state, city
   ) VALUES (
     $1, $2, $3, $4,
     $5, $6, $7, $8,
-    $9, $10, $11, $12, $13, $14
+    $9, $10, $11, $12, $13, $14, $15
   )
 `;
       const values = [
@@ -46,8 +48,9 @@ async function insertBulkData() {
   record.convenorContact,
   record.area,
   record.district,
-  record.googleMapLink, // ✅ must match schema name
-  record.state
+  record.googleMapLink, 
+  record.state,
+  record.city
 ];
 
       await client.query(query, values);
@@ -67,6 +70,23 @@ async function getCentres() {
 
   try {
     const result = await client.query(`SELECT * FROM ${bv_centres_table} order by id`); // Fetch data
+    console.log("✅ Data read successfully!");
+    const response = result.rows.map(helpers.transformToUiModel);
+    console.log('response', response)
+    return response;
+  } catch (err) {
+    console.error("❌ Error getting data:", err);
+    throw err;
+  } finally {
+    client.release();
+  }
+}
+
+async function getCentresById(id) {
+  const client = await pool.connect();
+
+  try {
+    const result = await client.query(`SELECT * FROM ${bv_centres_table} where id = ${id}`); // Fetch data
     console.log("✅ Data read successfully!");
     const response = result.rows.map(helpers.transformToUiModel);
     console.log('response', response)
@@ -180,6 +200,7 @@ async function createCentre(record) {
 module.exports = {
   insertBulkData,
   getCentres,
+  getCentresById,
   updateCentre,
   deleteCentre,
   createCentre,

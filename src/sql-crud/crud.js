@@ -93,7 +93,7 @@ async function getCentres() {
   }
 
   console.log("BV CENTRES:", data);
-  return data;
+  return data.map((helpers.transformToUiModel));
 }
 
 async function getCentresById(id) {
@@ -109,7 +109,7 @@ async function getCentresById(id) {
       throw error;
     }
 
-    return data;
+    return data.map((helpers.transformToUiModel));
   } catch (err) {
     console.error("❌ Error getting data:", err);
     throw err;

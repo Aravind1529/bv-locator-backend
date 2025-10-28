@@ -1,18 +1,20 @@
 const fs = require("fs");
 const { Pool } = require("pg");
 const helpers = require("../shared/helper");
-const {tables} = require("../shared/constants");
+const { tables } = require("../shared/constants");
+const { supabase } = require("../shared/supabaseClient");
+// import { supabase } from './supabaseClient.js'
 
 const bv_centres_table = tables.BV_CENTRES;
 
-// Connect to Neon.tech
-const pool = new Pool({
-  connectionString:
-    "postgresql://neondb_owner:npg_7XGetQdwz4vq@ep-wild-sky-a5lukxmm-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require",
-  ssl: {
-    rejectUnauthorized: false,
-  },
-});
+// // Connect to Neon.tech
+// const pool = new Pool({
+//   connectionString:
+//     "postgresql://postgres:Sairam@2311#@db.tuvathnuygftcqflnxdx.supabase.co:5432/postgres",
+//   ssl: {
+//     rejectUnauthorized: false,
+//   },
+// });
 
 async function insertBulkData() {
   const client = await pool.connect();
@@ -26,7 +28,7 @@ async function insertBulkData() {
     for (const record of data) {
       const query = `
         INSERT INTO ${bv_centres_table} (
-    samithi_name, centre_name, guru_name, guru_contact_number,
+    samithi_name, centre_name, guru_name, guru_contact,
     address, pincode, ec_name, ec_contact,
     convenor_name, convenor_contact, area, district, google_map_link, state, city
   ) VALUES (
@@ -36,22 +38,22 @@ async function insertBulkData() {
   )
 `;
       const values = [
-  record.samithiName,
-  record.centreName,
-  record.guruName,
-  record.guruContactNumber,
-  record.address,
-  record.pincode,
-  record.ecName,
-  record.ecContact,
-  record.convenorName,
-  record.convenorContact,
-  record.area,
-  record.district,
-  record.googleMapLink, 
-  record.state,
-  record.city
-];
+        record.samithiName,
+        record.centreName,
+        record.guruName,
+        record.guruContactNumber,
+        record.address,
+        record.pincode,
+        record.ecName,
+        record.ecContact,
+        record.convenorName,
+        record.convenorContact,
+        record.area,
+        record.district,
+        record.googleMapLink,
+        record.state,
+        record.city,
+      ];
 
       await client.query(query, values);
     }
@@ -66,36 +68,51 @@ async function insertBulkData() {
 }
 
 async function getCentres() {
-  const client = await pool.connect();
+  // const client = await pool.connect();
 
-  try {
-    const result = await client.query(`SELECT * FROM ${bv_centres_table} order by id`); // Fetch data
-    console.log("✅ Data read successfully!");
-    const response = result.rows.map(helpers.transformToUiModel);
-    console.log('response', response)
-    return response;
-  } catch (err) {
-    console.error("❌ Error getting data:", err);
-    throw err;
-  } finally {
-    client.release();
+  // try {
+  //   const result = await client.query(`SELECT * FROM ${bv_centres_table} order by id`); // Fetch data
+  //   console.log("✅ Data read successfully!");
+  //   const response = result.rows.map(helpers.transformToUiModel);
+  //   console.log('response', response)
+  //   return response;
+  // } catch (err) {
+  //   console.error("❌ Error getting data:", err);
+  //   throw err;
+  // } finally {
+  //   client.release();
+  // }
+
+  const { data, error } = await supabase
+    .from(`${bv_centres_table}`)
+    .select("*");
+
+  if (error) {
+    console.error("Error fetching bvCentres:", error);
+    throw error;
   }
+
+  console.log("BV CENTRES:", data);
+  return data;
 }
 
 async function getCentresById(id) {
-  const client = await pool.connect();
 
   try {
-    const result = await client.query(`SELECT * FROM ${bv_centres_table} where id = ${id}`); // Fetch data
-    console.log("✅ Data read successfully!");
-    const response = result.rows.map(helpers.transformToUiModel);
-    console.log('response', response)
-    return response;
+    const { data, error } = await supabase
+      .from(`${bv_centres_table}`)
+      .select("*")
+      .eq('id',`${id}`);
+
+    if (error) {
+      console.error("Error fetching bvCentres:", error);
+      throw error;
+    }
+
+    return data;
   } catch (err) {
     console.error("❌ Error getting data:", err);
     throw err;
-  } finally {
-    client.release();
   }
 }
 
@@ -104,35 +121,52 @@ async function updateCentre(id, data) {
     console.log("udpateData");
 
     const allowedColumns = [
-      'district', 'guru_name', 'samithi_name', 'centre_name', 'address', 'area',
-      'pincode', 'type', 'guru_contact_number', 'ec_name', 'ec_contact',
-      'convenor_name', 'convenor_contact', 'google_map_link', 'state', 'city'
+      "district",
+      "guru_name",
+      "samithi_name",
+      "centre_name",
+      "address",
+      "area",
+      "pincode",
+      "type",
+      "guru_contact",
+      "ec_name",
+      "ec_contact",
+      "convenor_name",
+      "convenor_contact",
+      "google_map_link",
+      "state",
+      "city",
     ];
-  
+
     // Filter only valid fields present in the request
-    const entries = Object.entries(data).filter(([key]) => allowedColumns.includes(key));
+    const entries = Object.entries(data).filter(([key]) =>
+      allowedColumns.includes(key)
+    );
     if (entries.length === 0) {
-      throw new Error('No valid fields provided');
+      throw new Error("No valid fields provided");
     }
-  
+
     // Build SET clause and values
-    const setClause = entries.map(([key], idx) => `${key} = $${idx + 1}`).join(', ');
+    const setClause = entries
+      .map(([key], idx) => `${key} = $${idx + 1}`)
+      .join(", ");
     const values = entries.map(([, value]) => value);
     values.push(id); // id is the last param
-  
+
     const query = `
       UPDATE ${bv_centres_table}
       SET ${setClause}
       WHERE id = $${values.length}
       RETURNING *;
     `;
-  
+
     const result = await pool.query(query, values);
     return result.rows[0];
-  } catch(err) {
+  } catch (err) {
     console.error(err);
     throw err;
-  } 
+  }
 }
 
 async function deleteCentre(id) {
@@ -140,17 +174,16 @@ async function deleteCentre(id) {
   try {
     console.log("deleteData");
     const deleteQuery = `DELETE FROM ${bv_centres_table} WHERE id = $1 RETURNING *;`;
-  
+
     const result = await client.query(deleteQuery, [id]);
     console.log(result);
     return result.rows[0];
-  } catch(err) {
+  } catch (err) {
     console.error(err);
     throw err;
   } finally {
     client.release();
   }
-
 }
 
 async function createCentre(record) {
@@ -159,7 +192,7 @@ async function createCentre(record) {
   try {
     const query = `
         INSERT INTO ${bv_centres_table} (
-          samithi_name, centre_name, guru_name, guru_contact_number,
+          samithi_name, centre_name, guru_name, guru_contact,
           address, pincode, ec_name, ec_contact,
           convenor_name, convenor_contact, area, district, google_map_link, state, city
         ) VALUES (
@@ -184,7 +217,7 @@ async function createCentre(record) {
       record.district,
       record.googleMapLink,
       record.state,
-      record.city
+      record.city,
     ];
 
     const result = await client.query(query, values);

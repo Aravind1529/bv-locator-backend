@@ -7,7 +7,7 @@ const fieldMap = {
     address: 'address',
     area: 'area',
     pincode: 'pincode',
-    guruContactNumber: 'guru_contact_number',
+    guruContactNumber: 'guru_contact',
     ecName: 'ec_name',
     ecContact: 'ec_contact',
     convenorName: 'convenor_name',

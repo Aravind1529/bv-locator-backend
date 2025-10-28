@@ -3,7 +3,7 @@ CREATE TABLE bv_centres (
   samithi_name TEXT,
   centre_name TEXT,
   guru_name TEXT,
-  guru_contact_number TEXT,
+  guru_contact TEXT,
   address TEXT,
   pincode TEXT,
   ec_name TEXT,

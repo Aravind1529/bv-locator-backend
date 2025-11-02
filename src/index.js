@@ -26,7 +26,7 @@ app.get('/api/centres', async (req, res) => {
     res.json(data);
 
   } catch (error) {
-    res.status(500).json({ error: 'Error fetching data from external API' });
+    res.status(500).json({ error: 'Error fetching data from external API', details: error });
   }
 });
 
@@ -36,7 +36,7 @@ app.get('/api/centres/:id', async (req, res) => {
     res.json(data);
 
   } catch (error) {
-    res.status(500).json({ error: 'Error fetching data from external API' });
+    res.status(500).json({ error: 'Error fetching data from external API', details: error });
   }
 });
 
@@ -48,20 +48,20 @@ app.post('/api/create-centre', async (req, res) => {
     res.status(201).json({ message: 'Centre created successfully'});
   } catch (err) {
     console.error('Insert error:', err);
-    res.status(500).json({ error: 'Something went wrong' });
+    res.status(500).json({ error: 'Something went wrong', details: err });
   }
 });
 
-app.post('/api/insert-bulk-centres', async (req, res) => {
+// app.post('/api/insert-bulk-centres', async (req, res) => {
 
-  try {
-    await crudOpsDto.insertBulkData();
-    res.status(201).json({ message: 'Centres created successfully'});
-  } catch (err) {
-    console.error('Insert error:', err);
-    res.status(500).json({ error: 'Something went wrong' });
-  }
-});
+//   try {
+//     await crudOpsDto.insertBulkData();
+//     res.status(201).json({ message: 'Centres created successfully'});
+//   } catch (err) {
+//     console.error('Insert error:', err);
+//     res.status(500).json({ error: 'Something went wrong' });
+//   }
+// });
 
 app.delete('/api/centre/:id', async (req, res) => {
   try {
@@ -73,7 +73,7 @@ app.delete('/api/centre/:id', async (req, res) => {
     }
   } catch (err) {
     console.error('Delete error:', err);
-    res.status(500).json({ error: 'Something went wrong' });
+    res.status(500).json({ error: 'Something went wrong', details: err });
   }
 });
 

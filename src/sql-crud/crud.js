@@ -70,6 +70,36 @@ const bv_centres_table = tables.BV_CENTRES;
 //   }
 // }
 
+async function authenticateUser(username, password) {
+  try {
+    const { data, error } = await supabase
+      .from("bv_users")
+      .select("*")
+      .eq("user_name", username)
+      .eq("password", password)
+      .single(); // returns one row or null
+
+    if(error) {
+      console.error("Error Message: ", error);
+    }
+    if (data) {
+      console.log("✅ User found:", data);
+      data.isAuthenticatedUser = true;
+      return data;
+    } else {
+      console.error("❌ Invalid credentials");
+      const result = {
+        isAuthenticatedUser : false,
+        message : "Invalid Credentials"
+      }
+      return result;
+    }
+  } catch (err) {
+    console.error("❌ Error getting data:", err);
+    throw err;
+  }
+}
+
 async function getCentres() {
   try {
     const { data, error } = await supabase.from(bv_centres_table).select("*");
@@ -194,6 +224,7 @@ async function createCentre(record) {
 
 module.exports = {
   // insertBulkData,
+  authenticateUser,
   getCentres,
   getCentresById,
   updateCentre,

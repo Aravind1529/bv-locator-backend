@@ -87,15 +87,15 @@ async function authenticateUser(username, password) {
       data.isAuthenticatedUser = true;
       return data;
     } else {
-      console.error("❌ Invalid credentials");
       const result = {
         isAuthenticatedUser : false,
         message : "Invalid Credentials"
       }
-      return result;
+      console.error("❌ Invalid credentials", result);
+      throw error;
     }
   } catch (err) {
-    console.error("❌ Error getting data:", err);
+    console.error("❌ Error Authenticating user:", err);
     throw err;
   }
 }

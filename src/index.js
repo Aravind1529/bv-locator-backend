@@ -30,7 +30,7 @@ app.get('/api/centres', async (req, res) => {
   }
 });
 
-app.get('/api/authenticate-user', async (req, res) => {
+app.post('/api/authenticate-user', async (req, res) => {
   try {
     const data = await crudOpsDto.authenticateUser(req.body.username, req.body.password);
     res.json(data);
